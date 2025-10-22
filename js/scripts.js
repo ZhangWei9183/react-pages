@@ -1,4 +1,4 @@
 const test = () =>
 {
-    window.alert( "Pop up" )
+    alert( "Pop up" )
 }
