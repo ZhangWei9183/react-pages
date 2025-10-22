@@ -1,10 +1,17 @@
 const test = () =>
 {
     const ele = document.getElementById( "greeting" )
-    
-    if (ele.textContent === "Hello") {
+
+    if ( ele.textContent === "Hello" )
+    {
         ele.textContent = "Bye"
     } else {
         ele.textContent = "Hello"
     }
+}
+
+
+const popUp = () =>
+{
+    alert( "Pop up" )
 }
