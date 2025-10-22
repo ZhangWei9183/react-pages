@@ -1,4 +1,10 @@
 const test = () =>
 {
-    alert( "Pop up" )
+    const ele = document.getElementById( "greeting" )
+    
+    if (ele.textContent === "Hello") {
+        ele.textContent = "Bye"
+    } else {
+        ele.textContent = "Hello"
+    }
 }
