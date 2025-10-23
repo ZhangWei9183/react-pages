@@ -1,17 +1,9 @@
-const test = () =>
-{
-    const ele = document.getElementById( "greeting" )
+const root = createRoot(document.getElementById("MainApp"))
 
-    if ( ele.textContent === "Hello" )
-    {
-        ele.textContent = "Bye"
-    } else {
-        ele.textContent = "Hello"
-    }
-}
-
-
-const popUp = () =>
-{
-    alert( "Pop up" )
-}
+root.render(
+  React.createElement(
+    React.StrictMode,
+    null,
+    React.createElement(Hello)
+  )
+)
