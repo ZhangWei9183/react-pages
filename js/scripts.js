@@ -1,4 +1,6 @@
-import Hello from "/js/apps/Hello"
+import React from "react"
+import { createRoot } from "react-dom/client"
+import Hello from "/js/apps/Hello.jsx"
 
 
 const root = createRoot(document.getElementById("MainApp"))
@@ -10,5 +12,6 @@ root.render(
     React.createElement(Hello)
   )
 )
+
 
 
