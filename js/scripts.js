@@ -1,3 +1,6 @@
+import Hello from "./apps/Hello"
+
+
 const root = createRoot(document.getElementById("MainApp"))
 
 root.render(
@@ -7,3 +10,4 @@ root.render(
     React.createElement(Hello)
   )
 )
+
