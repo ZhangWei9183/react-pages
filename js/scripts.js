@@ -1,4 +1,4 @@
-import Hello from "./apps/Hello"
+import Hello from "/js/apps/Hello"
 
 
 const root = createRoot(document.getElementById("MainApp"))
@@ -10,4 +10,5 @@ root.render(
     React.createElement(Hello)
   )
 )
+
 
