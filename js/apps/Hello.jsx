@@ -11,4 +11,4 @@ const App = (props) =>
     )
 }
 
-export App
+export { App }
