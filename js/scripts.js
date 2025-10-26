@@ -1,9 +1,10 @@
-const root = createRoot(document.getElementById("MainApp"))
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-root.render(
-  React.createElement(
-    React.StrictMode,
-    null,
-    React.createElement(Hello)
-  )
-)
+import { App } from './App.jsx'
+
+
+
+ReactDOM.createRoot( 
+    document.querySelector('#root')
+).render(<App />)
