@@ -1,10 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+const Hello = () =>
+{
+    return <h2>Hello, React</h2>
+}
 
-import { App } from './App.jsx'
-
-
-
-ReactDOM.createRoot( 
-    document.querySelector('#root')
-).render(<App />)
+const elem = document.querySelector( "#MainApp" )
+const root = ReactDOM.createRoot( elem )
+root.render(<Hello />)
